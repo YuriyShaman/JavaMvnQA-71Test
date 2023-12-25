@@ -23,7 +23,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test 
+    @Test
     public void testUpVolume() {
         Radio radio = new Radio();
         radio.setCarrentVolume(100);
