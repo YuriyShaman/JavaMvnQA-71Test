@@ -43,6 +43,7 @@ public class Radio {
             carrentVolume = 100;           // Иначе, стоим на 100
         }
     }
+
     public void down() {
         if (carrentVolume != 0) {      // Если грмкость не 0
             carrentVolume--;          // Уменьшаем на 1 от текущего значения громкости
@@ -54,6 +55,7 @@ public class Radio {
     public int getCarrentVolume() {
         return carrentVolume;
     }
+
     public void setCarrentVolume(int carrentVolume) {
         if (carrentVolume < 0) {
             return;
